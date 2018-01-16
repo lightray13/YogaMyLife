@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_comment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_photo"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="10dp"/>-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/profil_default" />
+    <TextView
+        android:id="@+id/TV_name_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/iv_photo"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp" />
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:textSize="17sp"
+        android:layout_alignParentEnd="true"/>
+    <RatingBar
+        android:id="@+id/reting_bar_comment"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:progressTint="@color/color"
+        android:layout_below="@+id/TV_name_facebook"
+        android:layout_toEndOf="@+id/iv_photo"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="18dp" />
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reting_bar_comment"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

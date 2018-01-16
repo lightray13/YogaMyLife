@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/loopergroupcopy52">
+    <Button
+        android:id="@+id/dismiss_log"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/cancel"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="12pt"
+    android:layout_marginTop="0dp"
+    android:layout_marginStart="30dp"
+    android:text="@string/log_in_with"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_facebook"
+        android:clickable="true"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/facebook"/>
+
+    </RelativeLayout>
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:id="@+id/login_button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="24dp"-->
+        <!--android:layout_marginStart="30dp"-->
+        <!--android:layout_marginEnd="30dp"-->
+        <!--android:background="@drawable/rounded_facebook"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_vkontakte"
+        android:clickable="true"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vkontakte"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/vkontakte"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/btn_email_log"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:longClickable="true"
+        android:background="@drawable/rounded_email"
+        android:clickable="true"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/email"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

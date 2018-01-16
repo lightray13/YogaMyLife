@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.halfway.yogamylife.ShoppingCart">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="470dp"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="470dp"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_leggins"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="30dp"
+        android:background="@color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/toolbar_leggins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cart_product_recycle_view" />
+
+    <TextView
+        android:id="@+id/tv_card_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:text="@string/card_empty" />
+</RelativeLayout>
+    </ScrollView>
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="165dp">
+<TextView
+    android:id="@+id/tv_subtotal"
+    android:layout_width="wrap_content"
+    android:layout_height="24dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="23dp"
+    android:textSize="20sp"
+    android:textColor="@color/black"
+    android:text="@string/subtotal"/>
+    <TextView
+        android:id="@+id/subtotal_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@+id/subtotal_price_dollar"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Price"
+        android:textStyle="bold"/>
+<TextView
+    android:id="@+id/subtotal_price_dollar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="23dp"
+    android:layout_marginEnd="10dp"
+    android:textSize="20sp"
+    android:textColor="@color/black"
+    android:text="@string/dollar"
+    android:textStyle="bold"/>
+<Button
+    android:id="@+id/btn_check_out"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_marginTop="16dp"
+    android:background="@color/color"
+    android:layout_below="@+id/tv_subtotal"
+    android:layout_marginStart="11dp"
+    android:layout_marginEnd="9dp"
+    android:textSize="14sp"
+    android:text="@string/check_out"
+    android:clickable="true"
+    android:textColor="@color/white"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn_check_out"
+    android:layout_marginTop="11dp"
+    android:layout_marginStart="46dp"
+    android:layout_marginEnd="43dp"
+    android:layout_centerHorizontal="true"
+    android:text="@string/calculated"
+    android:textSize="16sp"
+    android:textColor="@color/black"/>
+</RelativeLayout>
+    </LinearLayout>

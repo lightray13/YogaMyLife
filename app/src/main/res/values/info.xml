@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shipping_and_returns">Shipping &amp; Returns</string>
+    <string name="shopping_info_text">
+        We have put a lot of focus on making sure the items get delivered to our customers as
+        quickly as possible. You will receive your order in 6-17 business days from the date that it is placed.\n\n
+        Verification\n
+        A confirmation email will be sent to you once the order is authorized and verified. We begin
+        preparing your order immediately after it is verified. With this sort of time frame, it makes
+        it difficult for us to change or cancel your order, however, we will do our best to support your request.\n
+        It normally takes 3-7 business days for us to process your order. Please note that this does not include holidays and weekends
+    </string>
+    <string name="return_info_text">
+        Returns &amp; Exchanges\n
+        If you\'re not 100% satisfied with the items you received, and we gladly accept returns within 30 days of
+        receipt for most items in new condition.\n\n
+        1. Get in touch with our customer service representative by sending us a ticket in your account. Indicate which item(s) you would
+        like to return and the reason for your return.\n
+        2. Place the item(s) in the original packing and seal the parcel securely.\n
+        3. Drop off your package at the local post office.\n
+        4. Most returns are processed within 5 business days after we receive your package. Once your refund has been issued, you will receive a confirmation email.\n\n
+        Return Conditions\n
+        1. You have 30 days to decide if an item is right for you if not, you can certainly come to us within 30 days of receipt.\n
+        2. Items returned must be in their unused condition with the original packing. We do not accept a returned item that’s worn, damaged, washed or altered in any way.\n
+        3. We do not accept returned items that were sent back to you directly without checking with us first.\n
+        4. We do not offer Freight To Collect service for the packages returned to us. Shipping cost for the returned package is non-refundable.\n\n
+        Return Address\n
+        If you wish to return the items to the nearest return address, please submit a ticket in your account, our customer service representative will get back to you within 24 hours.\n\n\n
+    </string>
+</resources>

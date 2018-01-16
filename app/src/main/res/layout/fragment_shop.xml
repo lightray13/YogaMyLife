@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_shop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.halfway.yogamylife.ShopFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:id="@+id/product_recycle_view"
+        android:layout_marginTop="91dp"/>
+    <ProgressBar
+        android:id="@+id/pb_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateDrawable="@drawable/rounded_pb"
+        android:indeterminateOnly="true"
+        android:visibility="invisible"/>
+    <Button
+        android:id="@+id/btn_card"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_card"/>
+
+</RelativeLayout>

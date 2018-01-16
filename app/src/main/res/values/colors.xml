@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color">#099</color>
+    <color name="light_color">#70b5b5</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="darke_grey">#333</color>
+    <color name="grey">#999</color>
+    <color name="facebook">#369</color>
+    <color name="vkontakte">#368</color>
+    <color name="lite_grey">#CCC</color>
+    <color name="hip">#6C576F</color>
+    <color name="red">#C00</color>
+    <color name="add">#06C</color>
+
+
+
+</resources>
