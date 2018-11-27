@@ -1,4 +1,4 @@
-# YogaMyLife
+# YogaMyLife (deprecated)
 
 ### Магазин товаров для занятия йогой
 
